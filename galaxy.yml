@@ -1,6 +1,6 @@
 namespace: community
 name: general
-version: 5.2.0
+version: 5.2.0-nbc-test
 readme: README.md
 authors:
   - Ansible (https://github.com/ansible)
