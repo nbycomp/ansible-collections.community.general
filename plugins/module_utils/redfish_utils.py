@@ -2209,7 +2209,7 @@ class RedfishUtils(object):
             if data.get('Image'):
                 if urlparse(image_url) == urlparse(data.get('Image')):
                     matched_uri, matched_data = uri, data
-                    if data.get('Inserted', True) and data.get('ImageName', 'x'):
+                    if data.get('Inserted', True):
                         return uri, data, True
         return matched_uri, matched_data, False
 
